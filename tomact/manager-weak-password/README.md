@@ -9,7 +9,7 @@
 ## 2. 环境与复现
 - 启动：`cd vulhub-master/tomcat/tomcat8 && docker-compose up -d` #你要输入自己放置的靶场文件路径，这里只是一个例子。
 - 访问 `http://your-ip:8080/manager/html`，使用弱口令登录[images/01-login-success.png]
-- 制作包含 JSP WebShell 的 WAR 包并上传部署[images/02-login-success.png]
+- 制作包含 JSP WebShell 的 WAR 包并上传部署[tomact/manager-weak-password/shell.jsp]
 - 访问部署后的路径，使用客户端连接验证[images/03-login-success.png]
 
 ## 3. 根因分析
